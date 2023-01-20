@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(45, 76, 104, 0.518);
+
+  .links {
+    height: 100%;
+    }    
+
+a {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: aquamarine;
+  text-decoration: none;
+  
+  &.active,
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+}
+
